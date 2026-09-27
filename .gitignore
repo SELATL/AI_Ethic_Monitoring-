@@ -1,0 +1,47 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+
+# Data is not redistributed
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.arrow
+*.zip
+data/
+data1/
+data2/
+data3/
+
+# Model weights and training state
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+models/
+models_*/
+checkpoint-*/
+syco_model/
+
+# Conversation records and generated output
+*.db
+*.db-*
+*.sqlite*
+outputs/
+logs/
+.gradio/
+wandb/
+
+# Local notebook, cloud shortcuts and environments
+.ipynb_checkpoints/
+*.gdoc
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
