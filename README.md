@@ -1,4 +1,4 @@
-#VODA: AI Ethics Governance Platform
+# VODA: AI Ethics Governance Platform
 
 **한국어 AI 답변의 편향·혐오·욕설과 사용자 편향에 대한 동조를 분석하는 모니터링 프로토타입**
 
